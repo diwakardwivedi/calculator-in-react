@@ -1,0 +1,46 @@
+.main-container{
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7c6c6;
+}
+.child-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    padding: 3rem;
+    padding-left: 4rem;
+    background-color: gray;
+    border-radius: 1rem;
+}
+.input-container{
+    margin-right: 13px;
+    margin-bottom: 1rem;
+}
+.input{
+    text-align: right;
+    padding: 0.5rem 1rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.button{
+    margin-right: 14px;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.clear, .equal{
+    background: #1e1e1e;
+    color: #fff;
+}
+.subtract{padding: 1rem 1.2rem;}
+.multi,.divide{padding: 1rem 1.23rem;}
